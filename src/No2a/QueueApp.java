@@ -21,8 +21,6 @@ public class QueueApp {
         antrian.display();
         System.out.println("yang diambil dari antrian = " + antrian.dequeue());
         antrian.display();
-        System.out.println("yang diambil dari antrian = " + antrian.dequeue());
-        antrian.display();
         antrian.enqueue(80);
         antrian.display();
         System.out.println("nilai yang paling depan = " + antrian.peek());
